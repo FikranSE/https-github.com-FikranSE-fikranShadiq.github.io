@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Neonderthaw&family=Pacifico&family=Paytone+One&family=Plus+Jakarta+Sans:wght@800&family=Poppins:wght@300&family=Roboto+Mono:wght@502&family=Roboto+Slab:wght@700&family=Roboto:wght@300&family=Slabo+27px&family=Ubuntu:wght@700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    min-height:10vh;
+    margin:0;
+    padding-bottom:100px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(20, 27, 31);
+    scroll-behavior: smooth;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #ff0000 #636363;
+}
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+    
+}
+
+  *::-webkit-scrollbar-track {
+    background: #636363;
+    
+}
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ff0000;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+    
+}
+
+
+
+

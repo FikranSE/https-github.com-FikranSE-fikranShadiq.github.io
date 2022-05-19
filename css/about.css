@@ -1,0 +1,119 @@
+.about-bx{
+    max-width:100%;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+}
+.img-bx{
+    width:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition:0.5s ease 0s;
+    margin-right:40px;
+}
+.img-bx img{
+    max-width:100%;
+    margin-left:50px;
+    transition: 0.5s ease 0s;
+}
+.img-bx img:hover{
+    box-shadow: rgba(240, 46, 46, 0.4) 5px 5px, rgba(240, 46, 46, 0.3) 10px 10px, rgba(240, 46, 46, 0.2) 15px 15px, rgba(240, 46, 88, 0.1) 20px 20px, rgba(240, 46, 69, 0.05) 25px 25px;
+    transform:scale(1.05);
+    opacity:0.5;
+}
+
+.article-bx{
+    display:flex;
+    justify-content: center;
+    align-items: start;
+    max-width:450px;
+    margin-left:120px;
+}
+.article{
+    
+    margin-left:12px;
+}
+.article h1{
+    color:rgb(254, 244, 208);
+    font-size:60px;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom:0;
+    margin-top:20px;
+    letter-spacing:7px;
+}
+
+.article h2{
+    font-size:29px;
+    font-family: 'Roboto Mono', monospace;
+    margin-top:12px;
+    margin-bottom:-15px;
+    color:rgb(193, 0, 0);
+    text-transform:uppercase;
+    letter-spacing: 2px;
+}
+.article p{
+    font-size: 16px;
+    font-family:'poppins';
+    color:rgba(245, 245, 245, 0.65);
+}
+
+.links-about{
+    display:flex;
+    justify-content: start;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.links-about li{
+    margin-right:30px;
+    padding:0;
+}
+.links-about li a{
+    font-size:22px;
+    color:red;
+    opacity:0.5;
+    cursor:pointer;
+    transition: 0.3s;
+}
+.links-about li a:hover{
+    opacity:1;
+}
+@media screen and (max-width:1180px){
+    .about-bx{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+    }
+    .article-bx{
+        margin:0;
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width:668px){
+    .about-bx{
+        display:flex;
+        flex-direction:column;
+    }
+    .img-bx{
+        justify-content:center;
+        max-width:400px;
+    }
+    .article-bx{
+        justify-content:center;
+        width:300px;
+    }
+    .article{
+        width:100%;
+        margin:0;
+    }
+    .article h1{
+        font-size:40px;
+    }
+    .article h2{
+        font-size:20px;
+    }
+}

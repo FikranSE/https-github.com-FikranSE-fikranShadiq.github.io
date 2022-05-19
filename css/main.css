@@ -1,0 +1,149 @@
+.main{
+    height:800px;
+    width:100%;
+}
+
+.bg-dan-profil{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+
+.title{
+    padding: 20px;
+    display: inline;
+    margin-top:-20px;
+    
+}
+/* .bx-img{
+    position:absolute;
+}
+.bx-img img{
+    position:absolute;
+    width:440px;
+    top:100px;
+    left:-70px;
+} */
+.title h1{
+    font-family: 'times new roman', serif;
+    letter-spacing: 5px;
+    color:rgb(20, 27, 31);
+    text-shadow:2px 0px rgb(245, 245, 245),
+    -2px 0px rgb(245, 245, 245);
+    font-size:196px;
+    cursor:pointer;
+    transition:all 0.3s;
+}
+.title h1:hover{
+    letter-spacing:40px;
+}
+
+.info{
+    margin-top:-120px;
+    margin-left:15px;
+}
+.info p{
+    margin-top:-10px;
+    font-size:1rem;
+    font-size:1.75rem;
+    letter-spacing:0;
+    font-family:'poppins';
+    color:white;
+}
+
+.bx-garis{
+    width:100%;
+    height:650px;
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    align-items:end;
+    
+}
+
+.text
+{
+    cursor:pointer;
+    color: rgb(254, 244, 208);
+    padding: 13px 19px;
+    border-radius:50px;
+    
+}
+.text:hover{
+    opacity:0.7;
+}
+
+.text a{
+    font-size:19px;
+    display:block;
+    margin-left:35px;
+    color:white;
+    animation:scrol 2s linear infinite;
+}
+
+@keyframes scrol {
+    0%{
+        
+    }
+    25%{
+        transform:translatey(12px);
+    }
+    
+}
+
+
+@media screen and (max-width: 977px){
+        .title{
+            margin-top:10px;
+        }
+        .title h1{
+        font-size:96px;
+        text-align:center;
+        }
+        .title h3{
+        font-size:53px;
+        margin-top:-90px;
+        margin-left:33px;
+        }
+        .info{
+            margin-top:10px;
+        }
+        
+}
+
+@media screen and (max-width: 367px){
+    .bg-dan-profil{
+        margin-left:80px;;
+    }
+    .bx-garis{
+        margin-top:-40px;
+        margin-left:50px;
+    }
+    .about-bx{
+        margin-left:90px;
+    }
+    .img-skill{
+        margin-left:15px;
+    }
+    .project-bx{
+        margin-left:30px;
+        width:100%;
+    }
+    .project-img-bx{
+        width:500px;
+    }
+    .contact-bx{
+        margin-top:-30px;
+        margin-left:100px;
+    }
+    footer{
+        margin-left:17px;
+        width:100%;
+    }
+    .isi-footer p{
+        font-size: 12px;
+    }
+
+}
+

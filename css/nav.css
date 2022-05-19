@@ -1,0 +1,50 @@
+.menu-bar{
+    position:fixed;
+    top:36px;
+    right:29px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    background: none;
+    font-size: 28px;
+    color:rgb(202, 229, 255);
+    display:none;
+    transition: all 0.1s ;
+    
+}
+.menu-bar:active{
+    transform:scale(0.9);
+}
+.active{
+    color:red;
+    text-decoration:underline;
+}
+
+
+
+/* .btn-contact{
+    background: #FBCA1F;
+    font-family: inherit;
+    padding: 0.3em 1em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+}
+
+.btn-contact:hover{
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+
+.btn-contact:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+} */
+
+
+
+
+

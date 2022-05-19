@@ -1,0 +1,22 @@
+footer{
+    padding:20px;
+    margin:100px 0;
+    margin-top:150px;
+    box-shadow: rgba(75, 104, 120, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.isi-footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.isi-footer p{
+    font-family:'poppins';
+    color:gray;
+}
+.isi-footer span{
+    font-family:'poppins';
+    font-weight:bold;
+    color:rgb(255, 0, 0);
+}

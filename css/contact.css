@@ -1,0 +1,132 @@
+.contact-bx{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-color:rgb(21, 30, 35);
+    margin-top: 400px;
+    padding:20px;
+}
+.title-contact{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.title-contact h1{
+    color:rgb(235, 225, 192);
+    font-size:40px;
+}
+.title-contact p{
+    color:rgb(182, 181, 181);
+    margin-top:-20px;
+}
+
+.form-bx{
+    display:flex;
+    flex-direction:column;justify-content:center;
+    align-items:center;
+    width:800px;
+    border:15px solid rgb(125, 2, 2);
+    padding:20px;
+    padding-right:40px;
+    padding-bottom:40px;
+}
+
+.title-form{
+    display:flex;
+    flex-direction:column;justify-content:center;
+    align-items:center;
+}
+
+.title-form h1{
+    font-family: 'ubuntu';
+    font-size:25px;
+    color:rgb(241, 241, 241);
+    animation:blub 2s linear infinite;
+}
+@keyframes blub{
+    0%{
+        
+    }
+    25%{
+        color:yellow;
+    }
+}
+.title-form p{
+    font-size:13px;
+    font-family:'poppins';
+    color:white;
+    text-align:center;
+    margin-top:-5px;
+    width:330px;
+}
+
+.title-form span{
+    color:gray;
+}
+
+.form-input{
+    width:400px;
+}
+
+.form-input input{
+    width:100%;
+    height:50px;
+    border-radius:5px;
+    outline: none;
+    font-family:'poppins';
+    font-weight:bold;
+    padding-left:10px;
+    font-size:13px;
+    margin:10px 0;
+}
+.nama-dan-nomor{
+    width:400px;
+    display:flex;
+    column-gap: 40px;
+}
+.nama-dan-nomor .nama{
+    width:50%;
+}
+.nama-dan-nomor .phone{
+    width:50%;
+}
+
+.btn-contact button{
+    width:415px;
+    outline: none;
+    font-size:20px;
+    font-family:'poppins',sans-serif;
+    font-weight:bold;
+    padding:19px;
+    border:none;
+    background-color:rgb(72, 135, 137);
+    cursor:pointer;
+    transition:0.5s ease;
+}
+
+.btn-contact button:hover{
+    background-color:red;
+    color:white;
+}
+@media screen and (max-width:870px){
+    .form-bx{
+        width:450px;
+    }
+}
+@media screen and (max-width:603px){
+    .form-bx{
+        width:400px;
+    }
+    .form-input input{
+        width:400px;
+        height:40px;
+    }
+    .nama-dan-nomor{
+        flex-direction:column;
+    }
+    
+}
+
+

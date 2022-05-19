@@ -1,0 +1,97 @@
+.project-bx{
+    padding:20px;
+    margin-top:250px;
+}
+
+.project{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.info-project-bx{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.info-project-bx h1{
+    font-size:60px;
+    font-family: 'Roboto Mono', monospace;
+    color:rgb(254, 244, 208);
+    margin-bottom:0;
+}
+
+.info-project-bx a{
+    padding:10px 13px;
+    margin-bottom:10px;
+    font-family:'ubuntu';
+    border-radius:50px;
+    color:red;
+    text-decoration: none;
+    font-size:15px;
+    transition:0.3s;
+}
+
+.info-project-bx a:hover{
+    opacity:0.5;
+}
+
+.project-img-bx{
+    max-width:300px;
+    position:relative;
+}
+
+.project-img-bx img{
+    max-height:150px;
+    width:100%;
+    opacity:0.5;
+    transition:0.3s;
+    cursor:pointer;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius:5px;
+}
+
+.project-img-bx img:hover{
+    opacity:1;
+    transform:scale(1.05);
+}
+
+.title-project-bx h2{
+    margin-bottom:0;
+    margin-top:10px;
+    color:red;
+    font-size:23px;
+    font-family:'poppins',sans-serif;
+    opacity:0.5;
+    transition:0.3s;
+    cursor:pointer;
+}
+.title-project-bx h2:hover{
+    opacity:1;
+}
+.title-project-bx p{
+    color:rgb(254, 244, 208);
+    font-family:'poppins';
+    margin-top: 10px;
+}
+
+
+.grid-project-bx{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.project-grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:5px;
+}
+
+@media screen and (max-width:760px){
+    .project-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
